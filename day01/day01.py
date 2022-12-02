@@ -8,5 +8,6 @@ with open("puzzle_input") as puzzle_input:
             sub_sum = 0
         else:
             sub_sum += int(l)
+    print(max(sums))
     sums.sort()
     print(sum(sums[-3:]))
